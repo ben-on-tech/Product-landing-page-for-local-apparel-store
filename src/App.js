@@ -156,7 +156,7 @@ export default function App() {
   // Products Page Component
   const Products = ({ setShowPaymentInstructions }) => { // Added setShowPaymentInstructions prop
     const products = [
-      { id: 1, name: 'Streetwise Hoodie', price: 69.99 },
+      { id: 1, name: 'Streetwise Hoodie', price: 69.99 , image:  },
       { id: 2, name: 'Vibe Ankle Socks (3-Pack)', price: 14.99 },
       { id: 3, name: 'Iconic Graphic Tee', price: 34.99 },
       { id: 4, name: 'Urban Sling Bag', price: 89.99 },
