@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Facebook, Instagram, Twitter, Mail, Menu, X } from 'lucide-react';
 
-// Define the new, bold color palette for 21st-century hip-hop vibes
+
 const colors = {
   primaryDark: '#000000',     // Deep Charcoal / Near Black - main background for most sections and header
   accentCyan: '#40E0D0',      // Dimmer Electric Cyan - vibrant accent, highlights (e.g., titles)
@@ -147,14 +147,14 @@ export default function App() {
                      transition-all duration-300 ease-in-out"
           style={{ backgroundColor: colors.accentStrongBlue, color: colors.lightText }}
         >
-          Buy {/* Changed "View Details" to "Buy" */}
+          Buy
         </button>
       </div>
     );
   };
 
   // Products Page Component
-  const Products = ({ setShowPaymentInstructions }) => { // Added setShowPaymentInstructions prop
+  const Products = ({ setShowPaymentInstructions }) => { 
     const products = [
       { id: 1, name: 'Streetwise Hoodie', price: 69.99 , image:  },
       { id: 2, name: 'Vibe Ankle Socks (3-Pack)', price: 14.99 },
@@ -167,7 +167,7 @@ export default function App() {
     ];
 
     const handleProductBuy = (product) => {
-      // In a real app, you might pass product details to the payment page or a cart
+      
       console.log(`User wants to buy: ${product.name}`);
       setShowPaymentInstructions(true); // Show payment instructions
     };
