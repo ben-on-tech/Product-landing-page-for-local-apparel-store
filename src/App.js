@@ -10,10 +10,10 @@ const colors = {
   lightText: '#F0F0F0',       // Light Grey / Off-White - primary text on dark backgrounds
 };
 
-// Root App Component
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
-  // New state to manage the visibility of the payment instructions page
+ 
   const [showPaymentInstructions, setShowPaymentInstructions] = useState(false);
 
   // Navigation Bar Component
