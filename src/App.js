@@ -16,7 +16,7 @@ export default function App() {
  
   const [showPaymentInstructions, setShowPaymentInstructions] = useState(false);
 
-  // Navigation Bar Component
+  
   const NavBar = ({ setCurrentPage }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -32,7 +32,7 @@ export default function App() {
     const handleNavItemClick = (id) => {
       setCurrentPage(id);
       setIsMobileMenuOpen(false);
-      // Ensure payment instructions are hidden when navigating to other main pages
+      
       setShowPaymentInstructions(false);
     };
 
