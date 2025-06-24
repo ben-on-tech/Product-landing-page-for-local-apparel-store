@@ -124,8 +124,8 @@ export default function App() {
     </section>
   );
 
-  // Product Card Component (Reusable for Products & Category pages)
-  const ProductCard = ({ product, onBuyClick }) => { // Added onBuyClick prop
+  
+  const ProductCard = ({ product, onBuyClick }) => { 
     return (
       <div
         className="group relative p-6 rounded-xl shadow-lg overflow-hidden
